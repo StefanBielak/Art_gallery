@@ -3,17 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Big+Shoulders+Text:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles/location.css">
   <title>Frontend Mentor | Art gallery website</title>
 </head>
 <body>
-<header>
-  <img src="./gallery/images/mobile/image-map.png" alt="city map" />
-  <button>Back to Home</button>
+<header class="nav">
+  <button class="nav_button">
+    <img class="nav_icon" src="./gallery/svg/icon-arrow-left.svg" alt="arrow_left">
+    <p class="nav_text">Back to Home</p></button>
+  <img class="nav_img" src="./gallery/images/mobile/image-map.png" alt="map_photo"
+  srcset="./gallery/images/mobile/image-map@2x.png 2x"/>
 </header>
-<div>
+<div class="adress">
   <h1>Our location</h1>
 
   <h2>99 King Street</h2>
@@ -24,22 +32,16 @@
   <p>Our newly opened gallery is located near the Edward King House on 99 King 
   Street, the Modern Art Gallery is free to all visitors and open seven days 
   a week from 8am to 9pm.</p>
-  <footer>
+  </div>
+  <footer class="social">
   <h3>Modern Art Gallery</h3>
 
   <p>The Modern Art Gallery is free to all visitors and open seven days a week 
   from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
-  <div>
-    <svg>
-      <use src="./gallery/svg/icon-facebook.svg"></use>
-    </svg>
-    <svg>
-      <use src="./gallery/svg/icon-instagram.svg"></use>
-    </svg>
-    <svg>
-      <use src="./gallery/svg/icon-twitter.svg"></use>
-    </svg>
-    </div>
+  <div class="social_icons">
+    <img class="social_icon" src="./gallery/svg/icon-facebook.svg" alt="facebook_icon">
+    <img class="social_icon" src="./gallery/svg/icon-instagram.svg" alt="instagram_icon">
+    <img class="social_icon" src="./gallery/svg/icon-twitter.svg" alt="twitter_icon">
   </footer>
 
 </body>

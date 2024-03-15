@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+position: relative;
+}
+.nav_button{
+    position:absolute;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+}
+.nav_text:hover {
+    background-color: #D5966C;;
+}
+.nav_button:hover .nav_icon {
+    background-color: #151515;
+    fill:#FFFFFF;
+}
+.nav_icon{
+    background-color: #D5966C;
+    padding:20px;
+}
+.nav_text{
+    background-color: #151515;
+    padding: 20px;
+    margin: 0px;
+}
+.nav_img{
+    height: auto;
+    max-width: 375px;  
+}
+.adress{
+    font-family: 'Big Shoulders Display';
+    background-color: #151515;
+    color: #FFFFFF;
+    margin-top: -4px;
+    padding: 16px;
+}
+.adress h1{
+    font-size: 50px;
+}
+.adress h2{
+    font-size: 32px;
+    color: #D5966C;
+}
+.adress p{
+    font-family: 'Outfit';
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.social{
+    background-color: #D5966C;
+    margin-top: 0px;
+    padding-left: 24px;
+    padding-top: 30px;
+    font-family: 'Big Shoulders Display';
+}
+.social h3{
+font-size: 28px;
+}
+.social p{
+    font-family: 'Outfit';
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.social_icons{
+    padding-bottom: 25px;
+}
+.social_icon{
+    padding-right: 15px;
+    cursor: pointer;
+    filter: invert(100%);
+}
+.social_icon:hover{
+    filter: invert(0%);
+}
