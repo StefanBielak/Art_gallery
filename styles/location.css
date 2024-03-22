@@ -17,7 +17,7 @@ position: relative;
     display: flex;
     padding: 0px;
 }
-.nav_text:hover {
+.nav_button:hover .nav_text {
     background-color: #D5966C;;
 }
 .nav_button:hover .nav_icon {
@@ -73,12 +73,11 @@ font-size: 28px;
 }
 .social_icons{
     padding-bottom: 25px;
+    padding-right: 15px;
 }
 .social_icon{
-    padding-right: 15px;
     cursor: pointer;
-    filter: invert(100%);
+    padding-right: 10px;
 }
 .social_icon:hover{
-    filter: invert(0%);
 }

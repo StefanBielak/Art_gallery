@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.nav_title{
+    font-family: 'Big Shoulders Display';
+    font-size: 60px;
+    padding-left: 15px;
+}
+.nav_text{
+    font-family: 'Outfit';
+    font-size: 18px;
+    color: #b2b2b2;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.nav_button{
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+.nav_button_icon{
+    background-color: #D5966C;
+    padding:20px;
+}
+.nav_button_text{
+    background-color: #151515;
+    padding: 20px;
+    margin: 0px;
+}
+.nav_button:hover .nav_button_text {
+    background-color: #D5966C;
+}
+.nav_button:hover .nav_button_icon {
+    background-color: #151515;
+    fill:#FFFFFF;
+}
+.gallery{
+display: flex;
+flex-direction: column;
+}
+.gallery_img{
+ max-width: 343px;
+ padding: 10px;
+ padding-left: 12px;
+}
+.gallery_title{
+padding-left: 15px;
+font-family: 'Big Shoulders Display';
+font-size: 50px;
+}
+.gallery_text{
+padding-left: 15px;
+padding-right: 10px;
+font-family: 'Outfit';
+font-size: 18px;
+color: #b2b2b2;
+}
+.inspire{
+    background-color: #151515;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 80px;
+}
+.inspire_title{
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.inspire_text{
+    font-family: 'Outfit';
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+.info{
+    background-color: #151515;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info_title{
+    font-family: 'Big Shoulders Display';
+    font-size: 30px;;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.info_text{
+    font-family: 'Outfit';
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.info_icons{
+padding-bottom: 40px;
+padding-left: 10px;
+}
+.info_icon{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.info_icon:hover{
+    fill: #D5966C;
+}
