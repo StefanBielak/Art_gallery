@@ -110,5 +110,5 @@ padding-left: 10px;
     margin-right: 10px;
 }
 .info_icon:hover{
-    fill: #D5966C;
+    filter: brightness(0) invert(1) sepia(3) saturate(50) hue-rotate(300deg);
 }

@@ -15,9 +15,9 @@
 </head>
 <body>
 <header class="nav">
-  <button class="nav_button">
+  <button class="nav_button" onclick="goToLocationPage()">
     <img class="nav_icon" src="./gallery/svg/icon-arrow-left.svg" alt="arrow_left">
-    <p class="nav_text">Back to Home</p></button>
+    <p class="nav_text"  href="./location.html">Back to Home</p></button>
   <img class="nav_img" src="./gallery/images/mobile/image-map.png" alt="map_photo"
   srcset="./gallery/images/mobile/image-map@2x.png 2x"/>
 </header>
@@ -44,6 +44,10 @@
     <img class="social_icon" src="./gallery/svg/icon-twitter.svg" alt="twitter_icon">
     </div>
   </footer>
-
+  <script>
+    function goToLocationPage() {
+      window.location.href = "index.html";
+    }
+  </script>
 </body>
 </html>

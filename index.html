@@ -24,7 +24,7 @@
   from a spark of inspiration. Will these pieces inspire you? Visit 
   us and find out.</p>
 
-  <button class="nav_button">
+  <button class="nav_button" onclick="goToLocationPage()">
     <p class="nav_button_text">Our location</p>
     <img class="nav_button_icon" src="./gallery/svg/icon-arrow-right.svg" alt="arrow">
   </button>
@@ -58,5 +58,10 @@
     <img class="info_icon" src="./gallery/svg/icon-twitter.svg" alt="twitter_icon">
     </div>
   </footer>
+  <script>
+    function goToLocationPage() {
+      window.location.href = "location.html";
+    }
+  </script>
 </body>
 </html>

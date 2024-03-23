@@ -78,6 +78,8 @@ font-size: 28px;
 .social_icon{
     cursor: pointer;
     padding-right: 10px;
+    filter: invert(100%);
 }
 .social_icon:hover{
+    filter:invert(0%);
 }
