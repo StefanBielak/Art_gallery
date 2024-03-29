@@ -15,7 +15,7 @@ position: relative;
     cursor: pointer;
     margin: 0px;
     display: flex;
-    padding: 0px;
+    padding: 0px; 
 }
 .nav_button:hover .nav_text {
     background-color: #D5966C;;
@@ -34,8 +34,9 @@ position: relative;
     margin: 0px;
 }
 .nav_img{
-    height: auto;
-    max-width: 375px;  
+    max-width: 100%;
+      height: auto;
+      margin: 0 auto; 
 }
 .adress{
     font-family: 'Big Shoulders Display';
@@ -43,6 +44,7 @@ position: relative;
     color: #FFFFFF;
     margin-top: -4px;
     padding: 16px;
+    padding-left: 30px;
 }
 .adress h1{
     font-size: 50px;
@@ -82,4 +84,61 @@ font-size: 28px;
 }
 .social_icon:hover{
     filter:invert(0%);
+}
+@media ( min-width: 376px ) {
+    .nav_button{
+        margin-left: 25px;
+    }
+    .adress {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .adress h1 {
+        flex-basis: 50%;
+        padding-top: 60px;
+    }
+    .adress_info {
+        flex-direction: column;
+        flex-basis: 50%;
+        padding-top: 20px;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.social_icons{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 115px;
+}
+.social p {
+    max-width: 281px;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+.social h3 {
+    padding-bottom: 80px;
+}
+}
+@media ( min-width: 769px ) {
+    .nav_button{
+        margin-left: 120px;
+    }
+    .adress {
+        padding-left: 165px;
+        padding-right: 165px;
+}
+    .social {
+        justify-content: space-between; 
+}
+    .social h3 {
+        padding-left: 80px;
+    }
+    .social p {
+        max-width: 430px;
+    }
+    .social_icons {
+        padding-right: 80px;
+    }
 }

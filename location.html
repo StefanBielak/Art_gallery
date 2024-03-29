@@ -18,12 +18,15 @@
   <button class="nav_button" onclick="goToLocationPage()">
     <img class="nav_icon" src="./gallery/svg/icon-arrow-left.svg" alt="arrow_left">
     <p class="nav_text"  href="./location.html">Back to Home</p></button>
-  <img class="nav_img" src="./gallery/images/mobile/image-map.png" alt="map_photo"
-  srcset="./gallery/images/mobile/image-map@2x.png 2x"/>
+    <picture>
+      <source media="(min-width: 769px)" srcset="./gallery/images/desktop/image-map.png, ./gallery/images/desktop/image-map@2x.png 2x">
+      <source media="(min-width: 376px)" srcset="./gallery/images/tablet/image-map.png, ./gallery/images/tablet/image-map@2x.png 2x">
+      <img class="nav_img" src="./gallery/images/mobile/image-map.png" srcset="./gallery/images/mobile/image-map@2x.png 2x" alt="map_photo">
+    </picture>
 </header>
 <div class="adress">
   <h1>Our location</h1>
-
+  <div class="adress_info">
   <h2>99 King Street</h2>
   <p>Newport</p>
   <p>RI 02840</p>
@@ -32,6 +35,7 @@
   <p>Our newly opened gallery is located near the Edward King House on 99 King 
   Street, the Modern Art Gallery is free to all visitors and open seven days 
   a week from 8am to 9pm.</p>
+  </div>
   </div>
   <footer class="social">
   <h3>Modern Art Gallery</h3>
