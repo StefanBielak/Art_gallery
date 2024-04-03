@@ -2,6 +2,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+.nav_img{
+    max-width: 375px;
+}
 .nav_title{
     font-family: 'Big Shoulders Display';
     font-size: 60px;
@@ -111,4 +114,148 @@ padding-left: 10px;
 }
 .info_icon:hover{
     filter: brightness(0) invert(1) sepia(3) saturate(50) hue-rotate(300deg);
+}
+@media ( min-width: 376px ) {
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav_img{
+    max-width: 437px;
+    max-height: 700px;
+    flex-basis: 50%;
+}
+.nav_context{
+    flex-basis: 50%;
+    position: absolute;
+    left:378px;
+    top:70px;
+}
+.nav_button{
+    margin-top: 50px;
+}
+.gallery{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 10px;
+}
+.gallery_info{
+order: -1;
+width: 223px;
+height: 299px;
+padding-left: 40px;
+padding-right: 40px;
+}
+.gallery_img:nth-of-type(3) {
+    width: 280px;
+    height: 313px;
+}
+.inspire{
+    width: 260px;
+    height: 396px;
+    position: relative;
+    left: 435px;
+    top: -440px;
+}
+.inspire_title{
+    padding-top: 80px;
+}
+.info{
+    margin-top: -300px;
+    display: flex;
+    align-items: center;
+    padding-right: 39px;
+    padding-left: 39px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.info_title{
+    width: 110px;
+    padding-right: 50px;
+    position: relative;
+    top:-30px;
+}
+.info_text{
+    width: 281px;
+    padding-right: 90px;
+}
+.info_icons{
+    position: relative;
+    top:-20px;
+}
+
+}
+@media ( min-width: 769px ) {
+.nav_img{
+    max-width: 540px;
+    max-height: 800px;
+    padding-left: 450px;
+    background-color: #151515;
+}
+.nav_title{
+    position: relative;
+    color:#FFFFFF;
+    right:75px;
+    max-width: 210px;   
+}
+.nav_title_color{
+    color: #151515;
+}
+.nav_text{
+width: 350px;
+position: relative;
+left: 550px;
+bottom: 110px;
+}
+.nav_button{
+position: relative;
+left:550px;
+}
+.gallery{
+    gap:30px;
+}
+.gallery_info{
+    padding-left: 120px;
+    padding-right: 230px;
+}
+.gallery_img_first{
+    width: 635px;
+    height: 400px;
+}
+.gallery_img_second{
+    width: 635px;
+    height: 720px;
+    padding-left: 130px;
+}
+.gallery_img_last{
+    width: 445px;
+    height: 313px;
+}
+.inspire{
+    left:820px;
+    top: -420px;
+  width: 430px;
+  height: 377px;
+}
+.inspire_title{
+    width: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.inspire_text{
+    width: 300px;
+    padding-left: 40px;
+}
+.info_title{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.info_text{
+    width: 430px;
+    padding-right: 340px;
+}
 }
